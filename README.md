@@ -73,12 +73,19 @@ Ahora con dbeaver nos conectaremos a nuestra RSD, **IMPORTANTE RECORDAR LA CLAVE
     INSERT INTO prueba VALUES ("it is works")
 ```
 
-
-
-
 #### Creación EC2 con su configuracíon
 
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/ec2.png)
 
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/createec2.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/ubuntu.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/configuracion.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/conexion.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/connect.png)
 
 
 #### API-REST
@@ -164,6 +171,15 @@ La respuesta de url tiene que ser igual de la API cuando se probo localmente
 
 
 #### Configuración de S3
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/createbucket.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/confibucket.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/cargar.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/public.png)
+
 
 
 ### Autor

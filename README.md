@@ -18,7 +18,7 @@
 [Click Aqui](https://www.youtube.com/watch?v=-OzxeoqP9KA&feature=youtu.be)
 
 ### Diagrama
-![](Diagram)
+![](https://github.com/CrkJohn/EC2-S3-RDS/tree/master/Imagenes/diagram.png)
 
 ### Turorial
 

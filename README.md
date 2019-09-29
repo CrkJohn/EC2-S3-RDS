@@ -22,10 +22,21 @@
 
 ### Turorial
 
-##### Configuración de VPC - Security group
+#### Configuración de VPC - Security group
 
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/vpc.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/left.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/listandcreate.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/createSecurity.png)
 
 #### Configuracion de inbound Rules Security group
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/editRules.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/rules.png)
 
 
 #### Creación RDS con su configuracíon

@@ -41,18 +41,37 @@
 
 #### Creación RDS con su configuracíon
 
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/rdsbuscador.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/createDB.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/mysql.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/templates.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/password.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/accebilty.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/vpconfig.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/name.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/dbcreated.png)
+
+![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/endPoint.png)
+
+
+#### Test del funcionamiento de la base datos
+
+Ahora con dbeaver nos conectaremos a nuestra RSD, **IMPORTANTE RECORDAR LA CLAVE QUE PUSO Y EL NOMBRE DE LA BASE DATOS, PASO ANTERIOR SE VE EN QUE PARTE SE PUSO**
+
 ```SQL
     CREATE TABLE prueba(
         sayHello varchar(10)
     )
     INSERT INTO prueba VALUES ("it is works")
 ```
-
-
-
-#### Test del funcionamiento de la base datos
-
-Ahora con dbeaver nos conectaremos a nuestra RSD, **IMPORTANTE RECORDAR LA CLAVE QUE PUSO Y EL NOMBRE DE LA BASE DATOS, PASO ANTERIOR SE VE EN QUE PARTE SE PUSO**
 
 
 

@@ -21,14 +21,27 @@
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/diagram.png)
 
 ### Turorial
+Antes de iniciar toda la configuración nuestros tres servicios necesitamos estar logueados en aws para poder buscar los servicios.
 
+En la pagina principal *home*, buscamos en la parte central *buscar servicios*, ahí vamos a buscar los tres servicios que necesitamos (RDS- S3- EC2).
 #### Configuración de VPC - Security group
 
+Antes crear nuestro servicio RDS necesitamos configurar vpc- Security group, Security group le permite tener salida a la base datos por el puerto que le digitamos, en este caso es el puerto 3306(puerto por defecto mysql).
+
+
+ * Primero necesitamos buscar el security group para ello buscamos en buscar servicios *VPC*.
+ 
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/vpc.png)
+
+Al encontrar VPC en la parte izquierda de la pagina, buscamos la sub-sección  *Security>Security Groups*, Darle click.
 
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/left.png)
 
+Después de darle click, se listara la lista de *Security groups* existentes y la opción de crear un nuevo *security group*. Se da click en *create security group*
+
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/listandcreate.png)
+
+Le digitamos el nombre que le deseamos poner en *security group* y la *VPC* que vamos a asociar a ella. 
 
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/createSecurity.png)
 
@@ -187,8 +200,3 @@ La respuesta de url tiene que ser igual de la API cuando se probo localmente
 John David Ibañez - [CrkJohn](https://github.com/CrkJohn)
 
 Escuela colombina de ingenieria Julio Garavito. 
-
-
-
-
-

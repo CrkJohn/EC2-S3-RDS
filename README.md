@@ -218,11 +218,19 @@ La respuesta de url tiene que ser igual de la API cuando se probo localmente
 
 #### Configuración de S3
 
+En la pagina principal  buscamos el servicio  S3 y en la pagina S3 creamos un buckect
+
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/createbucket.png)
+
+La tercera configuracion se desactiva el bloque para la consula publica del recurso estatico.
 
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/confibucket.png)
 
+Cuando tenemos creado el bucket, se selecionado el creado y buscamos el boton cargar, se carga un documento, fotos o paginas,
+
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/cargar.png)
+
+Antes de consultar el archivo selecionamos el archivo  y en *acciones* buscamos la opcion *hacer publico*
 
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/public.png)
 

@@ -110,13 +110,24 @@ Ahora con dbeaver nos conectaremos a nuestra RSD, **IMPORTANTE RECORDAR LA CLAVE
 
 #### Creación EC2 con su configuracíon
 
+En la pagina principal  buscamos el servicio  EC2.
+
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/ec2.png)
 
+En la parte central de la vista de EC2,buscamos una opcion de *launch instance*, como se muestra en la siguiente foto.
+	
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/createec2.png)
+
+Buscamos la maquina *Amazon linux AMI* y que tenga en la descripcion *java* ya que existe otra que no contiene java lo cual si la escogemos no podemos hacer el test del servicio dinamico más adelante
 
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/ubuntu.png)
 
+En la configuración es muy imporante configurarle las reglas ya que debemos crear una regla que salga por el puerto 8080 ya que por ese puerto vamos a subir nuestro servicio dinamico.
+
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/configuracion.png)
+
+
+#### Test del funcionamiento de la EC2
 
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/conexion.png)
 

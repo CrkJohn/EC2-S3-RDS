@@ -47,28 +47,50 @@ Le digitamos el nombre que le deseamos poner en *security group* y la *VPC* que 
 
 #### Configuracion de inbound Rules Security group
 
+Para que nuestra *VPC-Security Group* nos permita conectarnos a la base datos externamente tenemos configurar las reglas.
+
+Nos dirigimos a lista *security rules* y seleccionamos  la cual queremos crear la regla para que tengamos acceso al db, en la parte inferior después del listado de *security groups*, buscamos la pestaña inbound rules.
+
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/editRules.png)
+
+Seleccionamos *add rule* y creamos una regla MySQL como se muestra a continuación 
 
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/rules.png)
 
-
 #### Creación RDS con su configuracíon
+
+Buscar en servicios RDS
 
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/rdsbuscador.png)
 
+En la parte central de la vista de RDS,buscamos una opcion de *create database*, como se muestra en la siguiente foto.
+
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/createDB.png)
+
+Cuando ya estamos creando la base datos es importante escoge MySQL, ya que los puertos de salida del *security group* esta para este gestionador de db.
 
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/mysql.png)
 
+Ahora es importante escoger *free tier* ya que es gratuito y es para desarrollo y test
+
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/templates.png)
 
+En *credentials Settings* configuramos la información básica que necesitamos para poder conectarnos más adelante a la base de datos
+
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/password.png)
+
+Si solo se tiene configurado el puerto de salida de la base datos por medio del *security group* no es suficiente para poder establecer conexion, la solucion de este problema es confirmar el *publicly accessible*
 
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/accebilty.png)
 
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/vpconfig.png)
 
+
+Nombre de la base datos
+
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/name.png)
+
+### Verificacíon que la base datos fue creada exitosamente.
 
 ![](https://github.com/CrkJohn/EC2-S3-RDS/blob/master/img/dbcreated.png)
 
